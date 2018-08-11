@@ -861,14 +861,14 @@ import { FormsModule } from '@angular/forms';
 
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-
+import { AuthService } from '../../services/auth.service';
 
 @Component({
   selector: 'app-my-form',
   templateUrl: './my-form.component.html',
   styleUrls: ['./my-form.component.css']
 })
-export class MyFormComponent implements OnInit {
+export class LoginComponent implements OnInit {
 
 username: string;
 password: string;
